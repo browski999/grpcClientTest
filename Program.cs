@@ -30,7 +30,7 @@ namespace grpcClientTest
             _ = Task.Run(async () =>
             {
 
-                var names = new[] { "Liam", "Bob", "Alice", "Denver", "Kevin" };
+                var names = new[] { "Liam", "Bob", "Alice", "Denver", "Kevin", "Matthew" };
                 foreach (var name in names)
                 {
                     await Task.Delay(1000);
